@@ -1,0 +1,22 @@
+{
+  "name": "googleplaces",
+  "version": "1.0.0",
+  "description": "Places recommendation based on user location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdjadhav123/userplaces.git"
+  },
+  "author": "Chetan DJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdjadhav123/userplaces/issues"
+  },
+  "homepage": "https://github.com/cdjadhav123/userplaces#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

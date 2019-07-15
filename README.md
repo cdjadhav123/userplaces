@@ -69,3 +69,4 @@ This API will also store the user specific search records in DB as well.
 - **follow-redirects** - Drop-in replacement for Nodes http and https that automatically follows redirects.
 - **nodemon** - node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 - **dotenv** - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+- **bcrypt** - A library to help you hash passwords.

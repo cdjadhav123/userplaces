@@ -2,6 +2,12 @@
 
 Web service to manage and store nearby places API data on user and location level.
 
+## Getting started
+
+ 1. clone the project. 
+ 2. npm install. 
+ 3. Setup env provided. 
+ 4. You are good to go
 
 ## REST API's
 

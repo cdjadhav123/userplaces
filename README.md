@@ -25,8 +25,11 @@ You can also get all users created
 ****Note* : Only admin can access this route.***
 
 > **Login Credentials for admin:**
-> name - admin
-> password - admin123
+
+| Key        | Value           
+| ------------- |:-------------:|
+| name    | admin 
+| password      | admin123
 
 Once admin is logged in **Provide Bearer token** and hit the **Get All Users route**
 

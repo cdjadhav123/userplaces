@@ -6,7 +6,7 @@ const History = require('../models/history');
 module.exports = {
     places: (req, res) => {
 
-        //Step 1: Get coordinates based on the entered place name.
+        //Step 1: Get coordinates based on the entered place name and location of the User.
         const location = req.body? req.body.location : 0;
         const searchTag = req.body? req.body.searchParam : 0;
 

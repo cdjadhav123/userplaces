@@ -14,11 +14,11 @@ Web service to manage and store nearby places API data on user and location leve
 
 Before starting with the project we need to add user to database.
 ***For example*** : Send a post request with parameters
-| Key |Value  |
-|--|--|
-|  name| chetan
-password| 123456
 
+| Key        | Value           
+| ------------- |:-------------:|
+| name    | chetan 
+| password      | 123456      
 
 ## Get All Users
 You can also get all users created
@@ -33,10 +33,11 @@ Once admin is logged in **Provide Bearer token** and hit the **Get All Users rou
 ## Login user
 
 Login a user once created sending a post request with a below parameters
-| Key |Value  |
-|--|--|
-|  name| *username*
-password| *password*
+
+| Key        | Value           
+| ------------- |:-------------:|
+| name    | *username* 
+| password      | *password*   
 
 Once logged-in response you with receive a **Bearer Token** which is needed to access nearby places route.
 
@@ -46,10 +47,11 @@ Once logged-in response you with receive a **Bearer Token** which is needed to a
 
 This API will provide you with the near buy places with respect to user location. So, you need to provide **user location** and the **place to search** near by.
 For example:
-| Key |Value  |
-|--|--|
-|  location| *Florida*
-searchParam| *Restaurant*
+
+| Key        | Value           
+| ------------- |:-------------:|
+| location    | *Florida* 
+| searchParam      | *Restaurant*   
 
 > **Note:** Don't forget to provide **Bearer token in Authorization headers** of the logged in user
 
